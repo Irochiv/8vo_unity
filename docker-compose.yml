@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  phpache:
+    image: webdevops/php-apache:7.3
+    container_name: Unity-php
+    ports:
+        - "80:80"
+    volumes:
+        - ./server:/app
