@@ -3,7 +3,7 @@ global $host, $user, $pass, $db;
 
 $host = "localhost";
 $user = "root";
-$pass = "";
+$pass = "mydbroot";
 $db = "gamedb";
 
 $link = mysqli_connect($host, $user, $pass, $db) or die ("Conexion fallida");
