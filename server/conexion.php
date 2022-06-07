@@ -1,7 +1,7 @@
 <?php
 global $host, $user, $pass, $db;
 
-$host = "localhost";
+$host = "188.166.24.168";
 $user = "root";
 $pass = "mydbroot";
 $db = "gamedb";
